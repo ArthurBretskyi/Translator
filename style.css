@@ -1,0 +1,31 @@
+.translator_container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.word_container {
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.en_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.ua_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.selected {
+  border: 1px solid blue;
+}
+.incorrect {
+  border: 1px solid red;
+}
